@@ -1,3 +1,4 @@
+import jakarta.transaction.SystemException;
 
 public class Lab {
     /**
@@ -11,6 +12,7 @@ public class Lab {
      * @return the sum of a and b.
      */
     public int addNumbers(int a, int b){
-        return 0;
+        System.out.println(a+b);
+        return a+b;
     }
 }
